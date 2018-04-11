@@ -7,4 +7,4 @@ Hold an immense interest in programming and data analysis has propelled me to pi
 explore different side projects and hope my codes will be of use to the community!
 
 Current Commits:
-1. nba-box-score-scrapper
+1. nba-team-season-statistics
