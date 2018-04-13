@@ -7,7 +7,11 @@ from collections import OrderedDict
 
 driver = webdriver.Chrome(executable_path="/Users/JiaJun/Downloads/chromedriver")
 
-filepath = "https://stats.nba.com/teams/boxscores-traditional/?Season=2016-17&SeasonType=Regular%20Season"
+start_year = str(2016)
+end_year = str(int(start_year)+1)[2:].zfill(2)
+season = "{}-{}".format(start_year,end_year)
+
+filepath = "https://stats.nba.com/teams/boxscores-traditional/?Season={}&SeasonType=Regular%20Season".format(season)
 driver.get(filepath)
 
 def func(plyr_copy):
