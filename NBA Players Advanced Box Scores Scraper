@@ -72,8 +72,3 @@ df['season'] = [season]*df.shape[0]
 filedestination = r"/Users/JiaJun/Desktop/nba-players_{}.csv".format(season) # change filepath here 
 
 df.to_csv(filedestination,index=None)
-
-
-
-
-
