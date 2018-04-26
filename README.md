@@ -1,6 +1,6 @@
-# nba-scrapper
+# Official NBA Statistics Scraper
 
-Scrappers for [official site](https://stats.nba.com/) of NBA statistics
+Scrapers for [official site](https://stats.nba.com/) of NBA statistics
 
 **Libraries**:
 1. Pandas
@@ -11,3 +11,4 @@ Scrappers for [official site](https://stats.nba.com/) of NBA statistics
 
 **Current Scrappers**:
 1. [NBA Teams Advanced Box Scores](https://stats.nba.com/teams/boxscores-traditional/)
+2. [NBA Players Advanced Box Scores](https://stats.nba.com/players/boxscores-traditional/)
